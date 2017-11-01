@@ -2,7 +2,7 @@ data_ALY
 # 
 _chem_comp.id                                    ALY 
 _chem_comp.name                                  "N(6)-ACETYLLYSINE" 
-_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.type                                  "L-PEPTIDE" 
 _chem_comp.pdbx_type                             ATOMP 
 _chem_comp.formula                               "C8 H16 N2 O3" 
 _chem_comp.mon_nstd_parent_comp_id               LYS 
