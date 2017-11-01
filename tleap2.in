@@ -1,0 +1,14 @@
+source learpc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+prot = loadpdb 2dvq_MET_renum.pdb
+xwat = loadpdb 2dvq_XWAT.pdb
+complex = combine {prot xwat}
+saveamberparm prot 2dvq.prmtop 2dvq.inpcrd
+charge complex
+addions2 complex Cl- 0
+solvatebox complex TIP3PBOX 12.0
+check complex
+saveamberparm complex 2dvq_sol.prmtop 2dvq_sol.inpcrd
+savepdb complex 2dvq_sol.pdb
+quit

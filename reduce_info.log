@@ -1,13 +1,13 @@
 reduce: version 3.24 07/24/2013, Copyright 1997-2013, J. Michael Word
 Processing file: --standard input--
 Database of HETATM connections: "/share/apps/amber/16.06/openmpi/intel/amber16/dat/reduce_wwPDB_het_dict.txt"
-WARNING: atom SE from MSE will be treated as selenium
-WARNING: atom SE from MSE will be treated as selenium
-WARNING: atom SE from MSE will be treated as selenium
-WARNING: atom SE from MSE will be treated as selenium
-WARNING: atom SE from MSE will be treated as selenium
-WARNING: atom SE from MSE will be treated as selenium
-WARNING: atom SE from MSE will be treated as selenium
+WARNING: atom SD from MET will be treated as sulfur
+WARNING: atom SD from MET will be treated as sulfur
+WARNING: atom SD from MET will be treated as sulfur
+WARNING: atom SD from MET will be treated as sulfur
+WARNING: atom SD from MET will be treated as sulfur
+WARNING: atom SD from MET will be treated as sulfur
+WARNING: atom SD from MET will be treated as sulfur
 VDW dot density = 16/A^2
 Orientation penalty scale = 1 (100%)
 Eliminate contacts within 3 bonds.
@@ -123,7 +123,7 @@ SKIPPED H( Q  12 ALY H   ): Q  12 ALY N    bonds- Q  11 GLY C    (H bumps)
  Optimal score following high resolution, local optimization: 2.084
 Found 0 hydrogens (0 hets)
 Standardized 0 hydrogens (0 hets)
-Added 1012 hydrogens (76 hets)
+Added 977 hydrogens (41 hets)
 Removed 0 hydrogens (0 hets)
 Adjusted 25 group(s)
 If you publish work which uses reduce, please cite:
