@@ -1,0 +1,27 @@
+read
+    mol pqr 2dvq_reduced.pqr
+end
+elec 
+    mg-auto
+    dime 129 129 161
+    cglen 67.4475 68.0663 90.1309
+    fglen 59.6750 60.0390 73.0182
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx 2dvq_reduced.pqr
+end
+print elecEnergy 1 end
+quit
