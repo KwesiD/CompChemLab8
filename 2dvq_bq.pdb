@@ -1,0 +1,624 @@
+HEADER    TRANSCRIPTION                           01-AUG-06   2DVQ              
+TITLE     CRYSTAL STRUCTURE ANALYSIS OF THE N-TERMINAL BROMODOMAIN OF           
+TITLE    2 HUMAN BRD2 COMPLEXED WITH ACETYLATED HISTONE H4 PEPTIDE              
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: BROMODOMAIN-CONTAINING PROTEIN 2;                          
+COMPND   3 CHAIN: A, B, C;                                                      
+COMPND   4 FRAGMENT: N-TERMINAL BROMODOMAIN, BD1;                               
+COMPND   5 SYNONYM: RING3 PROTEIN, O27.1.1;                                     
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MOL_ID: 2;                                                           
+COMPND   8 MOLECULE: HISTONE H4;                                                
+COMPND   9 CHAIN: P, Q;                                                         
+COMPND  10 FRAGMENT: N-TERM TAIL;                                               
+COMPND  11 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   7 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   8 EXPRESSION_SYSTEM_PLASMID: PCR2.1-TOPO VECTOR;                       
+SOURCE   9 OTHER_DETAILS: EXPRESSED BY CELL-FREE SYSTEM;                        
+SOURCE  10 MOL_ID: 2;                                                           
+SOURCE  11 SYNTHETIC: YES;                                                      
+SOURCE  12 OTHER_DETAILS: SYNTHETIC PEPTIDE                                     
+KEYWDS    ALPHA-HELICAL DOMAIN, BROMODOMAIN, BINDS TO ACETYLATED                
+KEYWDS   2 HISTONES, STRUCTURAL GENOMICS, NPPSFA, NATIONAL PROJECT ON           
+KEYWDS   3 PROTEIN STRUCTURAL AND FUNCTIONAL ANALYSES, RIKEN                    
+KEYWDS   4 STRUCTURAL GENOMICS/PROTEOMICS INITIATIVE, RSGI,                     
+KEYWDS   5 TRANSCRIPTION                                                        
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    Y.NAKAMURA,T.UMEHARA,M.SHIROUZU,B.PADMANABHAN,S.YOKOYAMA,             
+AUTHOR   2 RIKEN STRUCTURAL GENOMICS/PROTEOMICS INITIATIVE (RSGI)               
+REVDAT   3   16-MAR-10 2DVQ    1       JRNL                                     
+REVDAT   2   24-FEB-09 2DVQ    1       VERSN                                    
+REVDAT   1   07-AUG-07 2DVQ    0                                                
+JRNL        AUTH   T.UMEHARA,Y.NAKAMURA,M.K.JANG,K.NAKANO,A.TANAKA,             
+JRNL        AUTH 2 K.OZATO,B.PADMANABHAN,S.YOKOYAMA                             
+JRNL        TITL   STRUCTURAL BASIS FOR ACETYLATED HISTONE H4                   
+JRNL        TITL 2 RECOGNITION BY THE HUMAN BRD2 BROMODOMAIN.                   
+JRNL        REF    J.BIOL.CHEM.                  V. 285  7610 2010              
+JRNL        REFN                   ISSN 0021-9258                               
+JRNL        PMID   20048151                                                     
+JRNL        DOI    10.1074/JBC.M109.062422                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.04 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.1.24                                        
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.04                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 20.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 95.9                           
+REMARK   3   NUMBER OF REFLECTIONS             : 24375                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.191                           
+REMARK   3   R VALUE            (WORKING SET) : 0.188                           
+REMARK   3   FREE R VALUE                     : 0.248                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.100                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 1301                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.04                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.09                         
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 1360                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2240                       
+REMARK   3   BIN FREE R VALUE SET COUNT          : 64                           
+REMARK   3   BIN FREE R VALUE                    : 0.3270                       
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2911                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 0                                       
+REMARK   3   SOLVENT ATOMS            : 250                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 31.86                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 1.14000                                              
+REMARK   3    B22 (A**2) : -0.74000                                             
+REMARK   3    B33 (A**2) : -0.56000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : -1.09000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.205         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.188         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.131         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 4.840         
+REMARK   3                                                                      
+REMARK   3 CORRELATION COEFFICIENTS.                                            
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.948                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.907                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  2987 ; 0.017 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  4028 ; 1.547 ; 1.945       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   351 ; 6.491 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   423 ; 0.106 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  2248 ; 0.006 ; 0.020       
+REMARK   3   GENERAL PLANES OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):  1550 ; 0.237 ; 0.200       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):   194 ; 0.168 ; 0.200       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):    71 ; 0.266 ; 0.200       
+REMARK   3   SYMMETRY VDW OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):    13 ; 0.351 ; 0.200       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1776 ; 1.011 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2860 ; 1.878 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1211 ; 3.304 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  1168 ; 4.730 ; 4.500       
+REMARK   3                                                                      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : BABINET MODEL WITH MASK                              
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.40                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK   4                                                                      
+REMARK   4 2DVQ COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 02-AUG-06.                  
+REMARK 100 THE RCSB ID CODE IS RCSB025901.                                      
+REMARK 200                                                                      
+REMARK 200 EXPERIMENTAL DETAILS                                                 
+REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
+REMARK 200  DATE OF DATA COLLECTION        : 07-JUL-04                          
+REMARK 200  TEMPERATURE           (KELVIN) : 120.0                              
+REMARK 200  PH                             : 6.50                               
+REMARK 200  NUMBER OF CRYSTALS USED        : 1                                  
+REMARK 200                                                                      
+REMARK 200  SYNCHROTRON              (Y/N) : Y                                  
+REMARK 200  RADIATION SOURCE               : SPRING-8                           
+REMARK 200  BEAMLINE                       : BL44B2                             
+REMARK 200  X-RAY GENERATOR MODEL          : NULL                               
+REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
+REMARK 200  WAVELENGTH OR RANGE        (A) : 0.9791                             
+REMARK 200  MONOCHROMATOR                  : NULL                               
+REMARK 200  OPTICS                         : NULL                               
+REMARK 200                                                                      
+REMARK 200  DETECTOR TYPE                  : CCD                                
+REMARK 200  DETECTOR MANUFACTURER          : ADSC                               
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-2000                           
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
+REMARK 200                                                                      
+REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 25699                              
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.040                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 50.000                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : -3.000                             
+REMARK 200                                                                      
+REMARK 200 OVERALL.                                                             
+REMARK 200  COMPLETENESS FOR RANGE     (%) : 96.1                               
+REMARK 200  DATA REDUNDANCY                : 3.500                              
+REMARK 200  R MERGE                    (I) : 0.06800                            
+REMARK 200  R SYM                      (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : NULL                               
+REMARK 200                                                                      
+REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 2.04                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 2.11                     
+REMARK 200  COMPLETENESS FOR SHELL     (%) : 78.1                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : 2.80                               
+REMARK 200  R MERGE FOR SHELL          (I) : 0.28100                            
+REMARK 200  R SYM FOR SHELL            (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL                               
+REMARK 200                                                                      
+REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
+REMARK 200 SOFTWARE USED: MOLREP                                                
+REMARK 200 STARTING MODEL: BD1 NATIVE                                           
+REMARK 200                                                                      
+REMARK 200 REMARK: NULL                                                         
+REMARK 280                                                                      
+REMARK 280 CRYSTAL                                                              
+REMARK 280 SOLVENT CONTENT, VS   (%): 47.00                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.30                     
+REMARK 280                                                                      
+REMARK 280 CRYSTALLIZATION CONDITIONS: PEGMME 5K, AS, PH 6.50, VAPOR            
+REMARK 280  DIFFUSION, CO-CRYSTALLIZAATION, TEMPERATURE 298K                    
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: C 1 2 1                          
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290       2555   -X,Y,-Z                                                 
+REMARK 290       3555   X+1/2,Y+1/2,Z                                           
+REMARK 290       4555   -X+1/2,Y+1/2,-Z                                         
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   2 -1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   2  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   2  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290   SMTRY1   3  1.000000  0.000000  0.000000       56.90550            
+REMARK 290   SMTRY2   3  0.000000  1.000000  0.000000       27.57150            
+REMARK 290   SMTRY3   3  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   4 -1.000000  0.000000  0.000000       56.90550            
+REMARK 290   SMTRY2   4  0.000000  1.000000  0.000000       27.57150            
+REMARK 290   SMTRY3   4  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1, 2                                                    
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TETRAMERIC                        
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, P, Q                            
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 2                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: C                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 350   BIOMT1   2 -1.000000  0.000000  0.000000      113.81100            
+REMARK 350   BIOMT2   2  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   2  0.000000  0.000000 -1.000000        0.00000            
+REMARK 375                                                                      
+REMARK 375 SPECIAL POSITION                                                     
+REMARK 375 THE FOLLOWING ATOMS ARE FOUND TO BE WITHIN 0.15 ANGSTROMS            
+REMARK 375 OF A SYMMETRY RELATED ATOM AND ARE ASSUMED TO BE ON SPECIAL          
+REMARK 375 POSITIONS.                                                           
+REMARK 375                                                                      
+REMARK 375 ATOM RES CSSEQI                                                      
+REMARK 375      HOH C 229  LIES ON A SPECIAL POSITION.                          
+REMARK 375      HOH C 195  LIES ON A SPECIAL POSITION.                          
+REMARK 375      HOH C 204  LIES ON A SPECIAL POSITION.                          
+REMARK 375      HOH C 257  LIES ON A SPECIAL POSITION.                          
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     LEU A   187                                                      
+REMARK 465     VAL A   188                                                      
+REMARK 465     VAL A   189                                                      
+REMARK 465     THR A   190                                                      
+REMARK 465     ILE A   191                                                      
+REMARK 465     PRO A   192                                                      
+REMARK 465     LYS A   193                                                      
+REMARK 465     ASN A   194                                                      
+REMARK 465     GLN B   185                                                      
+REMARK 465     GLU B   186                                                      
+REMARK 465     LEU B   187                                                      
+REMARK 465     VAL B   188                                                      
+REMARK 465     VAL B   189                                                      
+REMARK 465     THR B   190                                                      
+REMARK 465     ILE B   191                                                      
+REMARK 465     PRO B   192                                                      
+REMARK 465     LYS B   193                                                      
+REMARK 465     ASN B   194                                                      
+REMARK 465     GLY C    73                                                      
+REMARK 465     ARG C    74                                                      
+REMARK 465     VAL C    75                                                      
+REMARK 465     GLU C   183                                                      
+REMARK 465     GLU C   184                                                      
+REMARK 465     GLN C   185                                                      
+REMARK 465     GLU C   186                                                      
+REMARK 465     LEU C   187                                                      
+REMARK 465     VAL C   188                                                      
+REMARK 465     VAL C   189                                                      
+REMARK 465     THR C   190                                                      
+REMARK 465     ILE C   191                                                      
+REMARK 465     PRO C   192                                                      
+REMARK 465     LYS C   193                                                      
+REMARK 465     ASN C   194                                                      
+REMARK 465     SER P     1                                                      
+REMARK 465     GLY P     2                                                      
+REMARK 465     ARG P     3                                                      
+REMARK 465     GLY P     4                                                      
+REMARK 465     LYS P     5                                                      
+REMARK 465     GLY P     6                                                      
+REMARK 465     GLY P     7                                                      
+REMARK 470                                                                      
+REMARK 470 MISSING ATOM                                                         
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
+REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
+REMARK 470 I=INSERTION CODE):                                                   
+REMARK 470   M RES CSSEQI  ATOMS                                                
+REMARK 470     LYS P   8    CG   CD   CE   NZ                                   
+REMARK 470     ARG Q   3    CG   CD   NE   CZ   NH1  NH2                        
+REMARK 470     LYS Q   5    CG   CD   CE   NZ                                   
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING ATOMS THAT ARE RELATED BY CRYSTALLOGRAPHIC             
+REMARK 500 SYMMETRY ARE IN CLOSE CONTACT.  AN ATOM LOCATED WITHIN 0.15          
+REMARK 500 ANGSTROMS OF A SYMMETRY RELATED ATOM IS ASSUMED TO BE ON A           
+REMARK 500 SPECIAL POSITION AND IS, THEREFORE, LISTED IN REMARK 375             
+REMARK 500 INSTEAD OF REMARK 500.  ATOMS WITH NON-BLANK ALTERNATE               
+REMARK 500 LOCATION INDICATORS ARE NOT INCLUDED IN THE CALCULATIONS.            
+REMARK 500                                                                      
+REMARK 500 DISTANCE CUTOFF:                                                     
+REMARK 500 2.2 ANGSTROMS FOR CONTACTS NOT INVOLVING HYDROGEN ATOMS              
+REMARK 500 1.6 ANGSTROMS FOR CONTACTS INVOLVING HYDROGEN ATOMS                  
+REMARK 500                                                                      
+REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI  SSYMOP   DISTANCE          
+REMARK 500   O    HOH C   208     O    HOH C   208     2655     1.90            
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500    ASP A 160   CB  -  CG  -  OD2 ANGL. DEV. =   5.9 DEGREES          
+REMARK 500    GLY Q   7   N   -  CA  -  C   ANGL. DEV. = -16.2 DEGREES          
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    GLU A 184       93.17    -57.63                                   
+REMARK 500    VAL B  75      113.29     69.35                                   
+REMARK 500    LEU B 110       68.21   -118.43                                   
+REMARK 500    LEU C 110       67.60   -116.05                                   
+REMARK 500    LEU P  10      -39.62   -141.87                                   
+REMARK 500    ARG Q   3      -52.88   -141.21                                   
+REMARK 500    LYS Q   8       93.03   -174.32                                   
+REMARK 500    LEU Q  10      -40.43   -175.85                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: NON-CIS, NON-TRANS                                         
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING PEPTIDE BONDS DEVIATE SIGNIFICANTLY FROM BOTH          
+REMARK 500 CIS AND TRANS CONFORMATION.  CIS BONDS, IF ANY, ARE LISTED           
+REMARK 500 ON CISPEP RECORDS.  TRANS IS DEFINED AS 180 +/- 30 AND               
+REMARK 500 CIS IS DEFINED AS 0 +/- 30 DEGREES.                                  
+REMARK 500                                 MODEL     OMEGA                      
+REMARK 500 GLY Q    2     ARG Q    3                 -143.86                    
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: CHIRAL CENTERS                                             
+REMARK 500                                                                      
+REMARK 500 UNEXPECTED CONFIGURATION OF THE FOLLOWING CHIRAL                     
+REMARK 500 CENTER(S) USING IMPROPER CA--C--CB--N CHIRALITY                      
+REMARK 500 FOR AMINO ACIDS AND C1'--O4'--N1(N9)--C2' FOR                        
+REMARK 500 NUCLEIC ACIDS OR EQUIVALENT ANGLE                                    
+REMARK 500 M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN                            
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE                   
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,6X,F5.1,6X,A1,10X,A1,3X,A16)       
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI    IMPROPER   EXPECTED   FOUND DETAILS                 
+REMARK 500    SER Q   1        23.7      L          L   OUTSIDE RANGE           
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 1X0J   RELATED DB: PDB                                   
+REMARK 900 NATIVE                                                               
+REMARK 900 RELATED ID: 2DVR   RELATED DB: PDB                                   
+REMARK 900 RELATED ID: 2DVS   RELATED DB: PDB                                   
+REMARK 900 RELATED ID: AR_001000221.4   RELATED DB: TARGETDB                    
+DBREF  2DVQ A   73   194  UNP    P25440   BRD2_HUMAN      73    194             
+DBREF  2DVQ B   73   194  UNP    P25440   BRD2_HUMAN      73    194             
+DBREF  2DVQ C   73   194  UNP    P25440   BRD2_HUMAN      73    194             
+DBREF  2DVQ P    1    15  PDB    2DVQ     2DVQ             1     15             
+DBREF  2DVQ Q    1    15  PDB    2DVQ     2DVQ             1     15             
+SEQADV 2DVQ MSE A   87  UNP  P25440    MET    87 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE A  121  UNP  P25440    MET   121 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE A  123  UNP  P25440    MET   123 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE A  142  UNP  P25440    MET   142 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE A  148  UNP  P25440    MET   148 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE A  165  UNP  P25440    MET   165 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE A  180  UNP  P25440    MET   180 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE B   87  UNP  P25440    MET    87 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE B  121  UNP  P25440    MET   121 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE B  123  UNP  P25440    MET   123 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE B  142  UNP  P25440    MET   142 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE B  148  UNP  P25440    MET   148 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE B  165  UNP  P25440    MET   165 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE B  180  UNP  P25440    MET   180 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE C   87  UNP  P25440    MET    87 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE C  121  UNP  P25440    MET   121 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE C  123  UNP  P25440    MET   123 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE C  142  UNP  P25440    MET   142 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE C  148  UNP  P25440    MET   148 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE C  165  UNP  P25440    MET   165 MODIFIED RESIDUE               
+SEQADV 2DVQ MSE C  180  UNP  P25440    MET   180 MODIFIED RESIDUE               
+SEQRES   1 A  122  GLY ARG VAL THR ASN GLN LEU GLN TYR LEU HIS LYS VAL          
+SEQRES   2 A  122  VAL MSE LYS ALA LEU TRP LYS HIS GLN PHE ALA TRP PRO          
+SEQRES   3 A  122  PHE ARG GLN PRO VAL ASP ALA VAL LYS LEU GLY LEU PRO          
+SEQRES   4 A  122  ASP TYR HIS LYS ILE ILE LYS GLN PRO MSE ASP MSE GLY          
+SEQRES   5 A  122  THR ILE LYS ARG ARG LEU GLU ASN ASN TYR TYR TRP ALA          
+SEQRES   6 A  122  ALA SER GLU CYS MSE GLN ASP PHE ASN THR MSE PHE THR          
+SEQRES   7 A  122  ASN CYS TYR ILE TYR ASN LYS PRO THR ASP ASP ILE VAL          
+SEQRES   8 A  122  LEU MSE ALA GLN THR LEU GLU LYS ILE PHE LEU GLN LYS          
+SEQRES   9 A  122  VAL ALA SER MSE PRO GLN GLU GLU GLN GLU LEU VAL VAL          
+SEQRES  10 A  122  THR ILE PRO LYS ASN                                          
+SEQRES   1 B  122  GLY ARG VAL THR ASN GLN LEU GLN TYR LEU HIS LYS VAL          
+SEQRES   2 B  122  VAL MSE LYS ALA LEU TRP LYS HIS GLN PHE ALA TRP PRO          
+SEQRES   3 B  122  PHE ARG GLN PRO VAL ASP ALA VAL LYS LEU GLY LEU PRO          
+SEQRES   4 B  122  ASP TYR HIS LYS ILE ILE LYS GLN PRO MSE ASP MSE GLY          
+SEQRES   5 B  122  THR ILE LYS ARG ARG LEU GLU ASN ASN TYR TYR TRP ALA          
+SEQRES   6 B  122  ALA SER GLU CYS MSE GLN ASP PHE ASN THR MSE PHE THR          
+SEQRES   7 B  122  ASN CYS TYR ILE TYR ASN LYS PRO THR ASP ASP ILE VAL          
+SEQRES   8 B  122  LEU MSE ALA GLN THR LEU GLU LYS ILE PHE LEU GLN LYS          
+SEQRES   9 B  122  VAL ALA SER MSE PRO GLN GLU GLU GLN GLU LEU VAL VAL          
+SEQRES  10 B  122  THR ILE PRO LYS ASN                                          
+SEQRES   1 C  122  GLY ARG VAL THR ASN GLN LEU GLN TYR LEU HIS LYS VAL          
+SEQRES   2 C  122  VAL MSE LYS ALA LEU TRP LYS HIS GLN PHE ALA TRP PRO          
+SEQRES   3 C  122  PHE ARG GLN PRO VAL ASP ALA VAL LYS LEU GLY LEU PRO          
+SEQRES   4 C  122  ASP TYR HIS LYS ILE ILE LYS GLN PRO MSE ASP MSE GLY          
+SEQRES   5 C  122  THR ILE LYS ARG ARG LEU GLU ASN ASN TYR TYR TRP ALA          
+SEQRES   6 C  122  ALA SER GLU CYS MSE GLN ASP PHE ASN THR MSE PHE THR          
+SEQRES   7 C  122  ASN CYS TYR ILE TYR ASN LYS PRO THR ASP ASP ILE VAL          
+SEQRES   8 C  122  LEU MSE ALA GLN THR LEU GLU LYS ILE PHE LEU GLN LYS          
+SEQRES   9 C  122  VAL ALA SER MSE PRO GLN GLU GLU GLN GLU LEU VAL VAL          
+SEQRES  10 C  122  THR ILE PRO LYS ASN                                          
+SEQRES   1 P   15  SER GLY ARG GLY LYS GLY GLY LYS GLY LEU GLY ALY GLY          
+SEQRES   2 P   15  GLY ALA                                                      
+SEQRES   1 Q   15  SER GLY ARG GLY LYS GLY GLY LYS GLY LEU GLY ALY GLY          
+SEQRES   2 Q   15  GLY ALA                                                      
+MODRES 2DVQ MSE A   87  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE A  121  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE A  123  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE A  142  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE A  148  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE A  165  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE A  180  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE B   87  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE B  121  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE B  123  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE B  142  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE B  148  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE B  165  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE B  180  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE C   87  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE C  121  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE C  123  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE C  142  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE C  148  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE C  165  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ MSE C  180  MET  SELENOMETHIONINE                                   
+MODRES 2DVQ ALY P   12  LYS  N(6)-ACETYLLYSINE                                  
+MODRES 2DVQ ALY Q   12  LYS  N(6)-ACETYLLYSINE                                  
+HET    MSE  A  87       8                                                       
+HET    MSE  A 121       8                                                       
+HET    MSE  A 123       8                                                       
+HET    MSE  A 142       8                                                       
+HET    MSE  A 148       8                                                       
+HET    MSE  A 165       8                                                       
+HET    MSE  A 180       8                                                       
+HET    MSE  B  87       8                                                       
+HET    MSE  B 121       8                                                       
+HET    MSE  B 123       8                                                       
+HET    MSE  B 142       8                                                       
+HET    MSE  B 148       8                                                       
+HET    MSE  B 165       8                                                       
+HET    MSE  B 180       8                                                       
+HET    MSE  C  87       8                                                       
+HET    MSE  C 121       8                                                       
+HET    MSE  C 123       8                                                       
+HET    MSE  C 142       8                                                       
+HET    MSE  C 148       8                                                       
+HET    MSE  C 165       8                                                       
+HET    MSE  C 180       8                                                       
+HET    ALY  P  12      12                                                       
+HET    ALY  Q  12      12                                                       
+HETNAM     MSE SELENOMETHIONINE                                                 
+HETNAM     ALY N(6)-ACETYLLYSINE                                                
+FORMUL   1  MSE    21(C5 H11 N O2 SE)                                           
+FORMUL   4  ALY    2(C8 H16 N2 O3)                                              
+FORMUL   6  HOH   *250(H2 O)                                                    
+HELIX    1   1 THR B   76  LYS B   92  1                                  17
+HELIX    2   2 ALA B   96  ARG B  100  1                                   5
+HELIX    3   3 ASP B  104  GLY B  109  1                                   6
+HELIX    4   4 ASP B  112  ILE B  117  1                                   6
+HELIX    5   5 ASP B  122  ASN B  132  1                                  11
+HELIX    6   6 ALA B  137  ASN B  156  1                                  20
+HELIX    7   7 ASP B  160  ALA B  178  1                                  19
+LINK         C   VAL A  86                 N   MSE A  87     1555   1555  1.33  
+LINK         C   MSE A  87                 N   LYS A  88     1555   1555  1.34  
+LINK         C   PRO A 120                 N   MSE A 121     1555   1555  1.33  
+LINK         C   MSE A 121                 N   ASP A 122     1555   1555  1.33  
+LINK         C   ASP A 122                 N   MSE A 123     1555   1555  1.33  
+LINK         C   MSE A 123                 N   GLY A 124     1555   1555  1.33  
+LINK         C   CYS A 141                 N   MSE A 142     1555   1555  1.32  
+LINK         C   MSE A 142                 N   GLN A 143     1555   1555  1.33  
+LINK         C   THR A 147                 N   MSE A 148     1555   1555  1.34  
+LINK         C   MSE A 148                 N   PHE A 149     1555   1555  1.33  
+LINK         C   LEU A 164                 N   MSE A 165     1555   1555  1.31  
+LINK         C   MSE A 165                 N   ALA A 166     1555   1555  1.33  
+LINK         C   SER A 179                 N   MSE A 180     1555   1555  1.33  
+LINK         C   MSE A 180                 N   PRO A 181     1555   1555  1.34  
+LINK         C   VAL B  86                 N   MSE B  87     1555   1555  1.33  
+LINK         C   MSE B  87                 N   LYS B  88     1555   1555  1.33  
+LINK         C   PRO B 120                 N   MSE B 121     1555   1555  1.33  
+LINK         C   MSE B 121                 N   ASP B 122     1555   1555  1.33  
+LINK         C   ASP B 122                 N   MSE B 123     1555   1555  1.35  
+LINK         C   MSE B 123                 N   GLY B 124     1555   1555  1.33  
+LINK         C   CYS B 141                 N   MSE B 142     1555   1555  1.32  
+LINK         C   MSE B 142                 N   GLN B 143     1555   1555  1.33  
+LINK         C   THR B 147                 N   MSE B 148     1555   1555  1.33  
+LINK         C   MSE B 148                 N   PHE B 149     1555   1555  1.34  
+LINK         C   LEU B 164                 N   MSE B 165     1555   1555  1.33  
+LINK         C   MSE B 165                 N   ALA B 166     1555   1555  1.34  
+LINK         C   SER B 179                 N   MSE B 180     1555   1555  1.32  
+LINK         C   MSE B 180                 N   PRO B 181     1555   1555  1.34  
+LINK         C   VAL C  86                 N   MSE C  87     1555   1555  1.34  
+LINK         C   MSE C  87                 N   LYS C  88     1555   1555  1.34  
+LINK         C   PRO C 120                 N   MSE C 121     1555   1555  1.33  
+LINK         C   MSE C 121                 N   ASP C 122     1555   1555  1.32  
+LINK         C   ASP C 122                 N   MSE C 123     1555   1555  1.34  
+LINK         C   MSE C 123                 N   GLY C 124     1555   1555  1.33  
+LINK         C   CYS C 141                 N   MSE C 142     1555   1555  1.32  
+LINK         C   MSE C 142                 N   GLN C 143     1555   1555  1.33  
+LINK         C   THR C 147                 N   MSE C 148     1555   1555  1.32  
+LINK         C   MSE C 148                 N   PHE C 149     1555   1555  1.33  
+LINK         C   LEU C 164                 N   MSE C 165     1555   1555  1.33  
+LINK         C   MSE C 165                 N   ALA C 166     1555   1555  1.34  
+LINK         C   SER C 179                 N   MSE C 180     1555   1555  1.32  
+LINK         C   MSE C 180                 N   PRO C 181     1555   1555  1.34  
+LINK         C   GLY P  11                 N   ALY P  12     1555   1555  1.32  
+LINK         C   ALY P  12                 N   GLY P  13     1555   1555  1.33  
+LINK         C   GLY Q  11                 N   ALY Q  12     1555   1555  1.33  
+LINK         C   ALY Q  12                 N   GLY Q  13     1555   1555  1.34  
+CISPEP   1 GLY P   14    ALA P   15          0         3.37                     
+CISPEP   2 SER Q    1    GLY Q    2          0       -14.85                     
+CRYST1  113.811   55.143   67.489  90.00  94.06  90.00 C 1 2 1      12          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.008786  0.000000  0.000624        0.00000                         
+SCALE2      0.000000  0.018135  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.014855        0.00000                         
+END
