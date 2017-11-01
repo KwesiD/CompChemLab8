@@ -1,6 +1,6 @@
 source leaprc.protein.ff14SB
 source learpc.water.tip3p
 source leaprc.gaff2
-prot = loadpdb 2dvq_reduced_MET.pqr
-savepdb prot 2dvq_MET_renum.pdb
+prot = loadpdb 2dvq_reduced_.pdb
+savepdb prot 2dvq_reduced_renum.pdb
 quit
