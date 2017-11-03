@@ -1,0 +1,3 @@
+1) created 2dvq_bq_fixed_MET where the geometry of ALY is changed and MSE -> MET
+2) Created 2dvq.pqr using PDB2PQR using PARSE FF, AMBER naming scheme
+3) Created 2dvq_xwat using grep "HOH " 2Z7F.pdb | egrep -v " I " > 2z7f_chainE_XWAT.pdb
