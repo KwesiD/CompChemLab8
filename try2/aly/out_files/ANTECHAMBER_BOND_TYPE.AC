@@ -1,0 +1,59 @@
+CHARGE      0.00 ( 0 )
+Formula: H16 C8 N2 O3 
+ATOM      1  OH  ALY     1       1.006  -0.557   4.738  0.000000          
+ATOM      2  CH  ALY     1      -0.053   0.007   4.572  0.000000          
+ATOM      3  CH3 ALY     1      -0.861   0.460   5.761  0.000000          
+ATOM      4  NZ  ALY     1      -0.509   0.231   3.324  0.000000          
+ATOM      5  CE  ALY     1       0.275  -0.208   2.167  0.000000          
+ATOM      6  CD  ALY     1      -0.461   0.164   0.879  0.000000          
+ATOM      7  CG  ALY     1       0.358  -0.294  -0.327  0.000000          
+ATOM      8  CB  ALY     1      -0.377   0.078  -1.615  0.000000          
+ATOM      9  CA  ALY     1       0.442  -0.381  -2.823  0.000000          
+ATOM     10  N   ALY     1       1.755   0.276  -2.802  0.000000          
+ATOM     11  C   ALY     1      -0.283  -0.013  -4.092  0.000000          
+ATOM     12  O   ALY     1      -0.079   1.056  -4.616  0.000000          
+ATOM     13  OXT ALY     1      -1.155  -0.873  -4.640  0.000000          
+ATOM     14  HH31ALY     1      -0.336   0.194   6.679  0.000000          
+ATOM     15  HH32ALY     1      -0.994   1.541   5.719  0.000000          
+ATOM     16  HH33ALY     1      -1.835  -0.027   5.746  0.000000          
+ATOM     17  HZ  ALY     1      -1.357   0.683   3.191  0.000000          
+ATOM     18  HE3 ALY     1       1.250   0.278   2.183  0.000000          
+ATOM     19  HE2 ALY     1       0.409  -1.289   2.209  0.000000          
+ATOM     20  HD3 ALY     1      -1.435  -0.322   0.864  0.000000          
+ATOM     21  HD2 ALY     1      -0.594   1.245   0.837  0.000000          
+ATOM     22  HG3 ALY     1       1.333   0.192  -0.312  0.000000          
+ATOM     23  HG2 ALY     1       0.492  -1.375  -0.285  0.000000          
+ATOM     24  HB3 ALY     1      -1.352  -0.409  -1.631  0.000000          
+ATOM     25  HB2 ALY     1      -0.511   1.159  -1.657  0.000000          
+ATOM     26  HCA ALY     1       0.575  -1.462  -2.781  0.000000          
+ATOM     27  H   ALY     1       1.583   1.269  -2.842  0.000000          
+ATOM     28  H2  ALY     1       2.159   0.088  -1.896  0.000000          
+ATOM     29  HXT ALY     1      -1.620  -0.637  -5.454  0.000000          
+BOND    1    1    2    2     OH   CH
+BOND    2    2    3    1     CH  CH3
+BOND    3    2    4    1     CH   NZ
+BOND    4    3   14    1    CH3 HH31
+BOND    5    3   15    1    CH3 HH32
+BOND    6    3   16    1    CH3 HH33
+BOND    7    4    5    1     NZ   CE
+BOND    8    4   17    1     NZ   HZ
+BOND    9    5    6    1     CE   CD
+BOND   10    5   18    1     CE  HE3
+BOND   11    5   19    1     CE  HE2
+BOND   12    6    7    1     CD   CG
+BOND   13    6   20    1     CD  HD3
+BOND   14    6   21    1     CD  HD2
+BOND   15    7    8    1     CG   CB
+BOND   16    7   22    1     CG  HG3
+BOND   17    7   23    1     CG  HG2
+BOND   18    8    9    1     CB   CA
+BOND   19    8   24    1     CB  HB3
+BOND   20    8   25    1     CB  HB2
+BOND   21    9   10    1     CA    N
+BOND   22    9   11    1     CA    C
+BOND   23    9   26    1     CA  HCA
+BOND   24   10   27    1      N    H
+BOND   25   10   28    1      N   H2
+BOND   26   11   12    2      C    O
+BOND   27   11   13    1      C  OXT
+BOND   28   13   29    1    OXT  HXT

@@ -27,3 +27,12 @@ savepdb complex 2dvq_sol.pdb
 quit
 
 
+7) got ALY.cif from https://files.rcsb.org/ligands/view/ALY.cif
+8) Removed 'Linking' from cif file
+9)ran antechamber -fi ccif -i ALY_noLinking.cif -bk ALY -fo ac -o aly.ac -c bcc -at amber
+10) renamed NZ in aly.ac to N. Saved as aly_gaff.ac 
+11) ran prepgen -i aly_gaff.ac -o aly.prepin -m aly.mc -rn ALY
+12) getting seg fault with parmchk2
+
+
+13) ran parmchk with ac files

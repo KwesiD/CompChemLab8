@@ -1,6 +1,6 @@
 source leaprc.protein.ff14SB
 source leaprc.water.tip3p
-source leaprc.gaff2
+source leaprc.gaff2 
 prot = loadpdb 2dvq_renum.pdb
 xwat = loadpdb 2dvq_XWAT.pdb
 complex = combine {prot xwat} 
