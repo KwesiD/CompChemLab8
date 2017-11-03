@@ -1,3 +1,29 @@
 1) created 2dvq_bq_fixed_MET where the geometry of ALY is changed and MSE -> MET
 2) Created 2dvq.pqr using PDB2PQR using PARSE FF, AMBER naming scheme
 3) Created 2dvq_xwat using grep "HOH " 2Z7F.pdb | egrep -v " I " > 2z7f_chainE_XWAT.pdb
+4) Removed Serine Hydrogen from pqr
+5) ran tleap to renumber pdb:
+
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+prot = loadpdb 2dvq_mod.pqr
+savepdb prot 2dvq_renum.pdb
+quit
+
+6) ran tleap to solvate and neutralize system:
+                                
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+prot = loadpdb 2dvq_renum.pdb
+xwat = loadpdb 2dvq_XWAT.pdb
+complex = combine {prot xwat}
+saveamberparm prot 2dvq_dry.prmtop 2dvq_dry.inpcrd
+addions2 complex Cl- 0
+solvatebox complex TIP3PBOX 12.0
+saveamberparm complex 2dvq_sol.prmtop 2dvq_sol.inpcrd
+savepdb complex 2dvq_sol.pdb
+quit
+
+
