@@ -1,0 +1,50 @@
+
+Static FFT Slab Distribution:
+
+  FFT slabs assigned to    4 tasks
+  Maximum of   23 xy slabs per task
+  Maximum of   18 zx slabs per task
+  Count of FFT xy slabs assigned to each task:
+      22  22  23  23
+  Count of FFT xz slabs assigned to each task:
+      18  18  18  18
+
+Image Distribution at run step       0:
+
+  Count of images assigned to each task:
+         7278     7278     7278     7279
+
+Atom Distribution No.     1 at run step       0:
+
+  Count of atoms assigned to each task:
+         7259     7277     7324     7253
+
+Atom Distribution No.     2 at run step   10088:
+
+  Count of atoms assigned to each task:
+         6993     6876     8100     7144
+
+Atom Distribution No.     3 at run step   20328:
+
+  Count of atoms assigned to each task:
+         6930     6873     8208     7102
+
+Atom Distribution No.     4 at run step   30568:
+
+  Count of atoms assigned to each task:
+         6897     6807     8175     7234
+
+Atom Distribution No.     5 at run step   40808:
+
+  Count of atoms assigned to each task:
+         6999     6780     8151     7183
+
+Atom Distribution No.     6 at run step   51048:
+
+  Count of atoms assigned to each task:
+         6923     6874     8289     7027
+
+Atom Distribution No.     7 at run step   61288:
+
+  Count of atoms assigned to each task:
+         6707     7414     8132     6860
