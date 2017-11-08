@@ -1,0 +1,14 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2 
+prot = loadpdb 2dvq_reduced.pdb
+loadAmberPrep aly.prepin
+loadAmberParams frcmod2.aly
+loadAmberParams frcmod.aly
+saveAmberParm prot 2dvq_parm7 2dvq_rst7 
+saveamberparm prot 2dvq_dry.prmtop 2dvq_dry.inpcrd
+addions2 prot Cl- 0
+solvatebox prot TIP3PBOX 12.0
+saveamberparm prot 2dvq_sol.prmtop 2dvq_sol.inpcrd
+savepdb prot 2dvq_sol.pdb
+
