@@ -1,0 +1,7 @@
+trajin ../heat.mdcrd
+trajin ../density.mdcrd 
+trajin ../equil.mdcrd
+center :1-218 
+image familiar 
+rms first @C,CA,N 
+trajout equilibration_reimaged.mdcrd 

@@ -1,0 +1,4 @@
+trajin ../heat.mdcrd
+trajin ../density.mdcrd 
+trajin ../equil.mdcrd 
+rms first out HNE_equilibration_rms.dat @C,CA,N time 1 
